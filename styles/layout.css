@@ -1,0 +1,67 @@
+
+
+div {
+  width: 100%;
+  float: left;
+  background: blue;
+  border: 1px solid black;
+  text-align: center;
+  /* Easiest way to center text in this case, would be harder if more than one text element present: */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div:nth-child(1) {
+  height: 75px;
+  /* Easiest way to align text if height is known: */
+  /* line-height: 75px; */
+}
+
+div:nth-child(2) {
+  height: 150px;
+}
+
+div:nth-child(3), div:nth-child(4) {
+  height: 125px;
+}
+
+div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8) {
+  height: 250px;
+  width:50%;
+  float: both;
+}
+
+div:nth-child(9) {
+  height: 80px;
+}
+
+@media (min-width:960px) {
+  body {
+    width:960px;
+  }
+  div:nth-child(1) {
+    height: 100px;
+  }
+  
+  div:nth-child(2) {
+    height: 600px;
+    width:200px;
+  }
+  
+  div:nth-child(3), div:nth-child(4) {
+    height: 200px;
+    width: 380px;
+  }
+  
+  div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8) {
+    height: 250px;
+    width: 190px;
+    float: both;
+  }
+  
+  div:nth-child(9) {
+    height: 150px;
+    width : 760px;
+  }
+}

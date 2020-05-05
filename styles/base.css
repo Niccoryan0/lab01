@@ -1,0 +1,9 @@
+* {
+  /* THIS IS WHAT I WAS MISSING: LOOK INTO THIS MORE, IT MADE THE TWO 50% WIDTHS LINE UP INSTEAD OF OVERLAPPING SLIGHTLY */
+  box-sizing: border-box;
+}
+
+body {
+  width: 480px;
+  margin: 0 auto;
+}
