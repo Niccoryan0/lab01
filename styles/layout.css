@@ -38,8 +38,6 @@ div:nth-child(9) {
 @media (min-width:768px) {
   body {
     width: 90%;
-    display: flex;
-    flex-wrap: wrap;
   }
 
   div {
@@ -60,7 +58,6 @@ div:nth-child(9) {
 @media (min-width:960px) {
   body {
     width: 90%;
-    display: flex;
   }
 
   div {
