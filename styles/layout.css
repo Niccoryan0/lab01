@@ -14,7 +14,7 @@ section > section {
 
 div {
   width: 100%;
-  background: blue;
+  /* background: blue; */
   border: 1px solid black;
   display: flex;
   align-items: center;
@@ -38,9 +38,46 @@ body :nth-child(1) > section:nth-child(3) > div:nth-child(3), div:nth-child(4), 
   width: 50%;
 }
 
-body :nth-child(1) > section:nth-child(3) > div:nth-child(7) {
+body :nth-child(1) > div:nth-child(1) {
+  background-color: gray;
+}
+
+
+body :nth-child(1) > div:nth-child(2) {
+  background-color: chocolate;
+}
+
+body :nth-child(1) > section:nth-child(3) > div:nth-child(1) {
+  background-color: blue;
   height: 80px;
 }
+
+body :nth-child(1) > section:nth-child(3) > div:nth-child(2) {
+  background-color: blanchedalmond;
+}
+
+body :nth-child(1) > section:nth-child(3) > div:nth-child(3) {
+  background-color: rgb(250, 154, 11);
+}
+
+body :nth-child(1) > section:nth-child(3) > div:nth-child(4) {
+  background-color: rgb(107, 109, 119);
+}
+
+
+body :nth-child(1) > section:nth-child(3) > div:nth-child(5) {
+  background-color: rgb(80, 74, 61);
+}
+
+body :nth-child(1) > section:nth-child(3) > div:nth-child(6) {
+  background-color: rgb(4, 195, 100);
+}
+
+body :nth-child(1) > section:nth-child(3) > div:nth-child(7) {
+  background-color: rgb(7, 177, 154);
+}
+
+
 
 @media (min-width:425px) {
   body {
@@ -49,9 +86,9 @@ body :nth-child(1) > section:nth-child(3) > div:nth-child(7) {
     margin: 0 auto;
   }
 
-  div {
+  /* div {
     background: green;
-  }
+  } */
 
   body :nth-child(1) > div:nth-child(2) {
     height: 200px;
@@ -69,6 +106,45 @@ body :nth-child(1) > section:nth-child(3) > div:nth-child(7) {
     height: 250px;
     width: 25%;
   }
+
+  body :nth-child(1) > div:nth-child(1) {
+    background-color: gray;
+  }
+  
+  
+  body :nth-child(1) > div:nth-child(2) {
+    background-color: rgb(65, 59, 55);
+  }
+  
+  body :nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    background-color: rgb(131, 46, 46);
+  }
+  
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(2) {
+    background-color: rgb(94, 139, 21);
+  }
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(3) {
+    background-color: rgb(235, 8, 57);
+  }
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(4) {
+    background-color: rgb(255, 0, 212);
+  }
+  
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(5) {
+    background-color: rgb(58, 61, 83);
+  }
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(6) {
+    background-color: rgb(204, 223, 213);
+  }
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(7) {
+    background-color: rgb(20, 42, 39);
+  }
 }
 
 @media (min-width:960px) {
@@ -82,14 +158,15 @@ body :nth-child(1) > section:nth-child(3) > div:nth-child(7) {
   }
 
   
-  div {
+  /* div {
     background: red;
-  }
+  } */
   
   body :nth-child(1) > div:nth-child(1) {
     height: 100px;
     /* width: 960px; */
     width: 100%;
+    /* background-color: green; */
   }
   
   body :nth-child(1) > div:nth-child(2) {
@@ -117,5 +194,44 @@ body :nth-child(1) > section:nth-child(3) > div:nth-child(7) {
   
   body :nth-child(1) > section:nth-child(3) > div:nth-child(7) {
     height: 150px;
+  }
+
+  body :nth-child(1) > div:nth-child(1) {
+    background-color: rgb(42, 3, 3);
+  }
+  
+  
+  body :nth-child(1) > div:nth-child(2) {
+    background-color: rgb(8, 191, 246);
+  }
+  
+  body :nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    background-color: rgb(29, 15, 105);
+  }
+  
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(2) {
+    background-color: rgb(149, 161, 130);
+  }
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(3) {
+    background-color: rgb(90, 56, 63);
+  }
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(4) {
+    background-color: rgb(253, 236, 0);
+  }
+  
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(5) {
+    background-color: rgb(39, 18, 3);
+  }
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(6) {
+    background-color: rgb(47, 76, 77);
+  }
+  
+  body :nth-child(1) > section:nth-child(3) > div:nth-child(7) {
+    background-color: rgb(124, 6, 75);
   }
 }
